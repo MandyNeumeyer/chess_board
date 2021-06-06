@@ -35,7 +35,7 @@ h1{
 
 table{
     border:1px solid black;
-    background:url(./wood.jpg);
+    background:url(./img/wood.jpg);
     background-size: cover;
     box-shadow: 4px 6px 6px black;
 }
