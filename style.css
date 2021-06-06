@@ -23,7 +23,7 @@ types, not only with HTML, it can be used with SVG for example. */
 
 h1{
     text-align: center;
-    color:#fff;
+    color:pink;
     font-family: 'Odibee Sans', cursive;
     font-size:6rem;
     letter-spacing: 0.5rem;
