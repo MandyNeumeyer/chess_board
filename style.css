@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
-
+/* todos */
+/* responsive */
+/* box-shadow 3d */
+/* spielfiguren */
 *{
     margin:0;
     padding:0;
@@ -16,18 +19,13 @@ body{
 
 }
 
-/* The :root pseudo-class represents an element that is the root of the 
-document. In HTML, this is always the HTML element.
-CSS is a general purpose styling language. It can be used with other document 
-types, not only with HTML, it can be used with SVG for example. */
-
 h1{
     text-align: center;
     color:pink;
     font-family: 'Odibee Sans', cursive;
     font-size:5rem;
     letter-spacing: 0.5rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0rem;
     text-shadow: 0 1px 0 #dba1a1, 0 2px 0 #d89999, 0 3px 0 #d59292, 0 4px 0 #d28a8a, 0 5px 0 #cf8383, 0 6px 0 #cd7c7c, 0 7px 0 #ca7474, 0 8px 0 #c76d6d, 0 0 5px rgba(230, 139, 139, 0.05), 0 -1px 3px rgba(230, 139, 139, 0.2), 0 9px 9px rgba(230, 139, 139, 0.3), 0 12px 12px rgba(230, 139, 139, 0.3), 0 15px 15px rgba(230, 139, 139, 0.3);
 }
 
@@ -37,12 +35,13 @@ table{
     border:1px solid black;
     background:url(./img/wood.jpg);
     background-size: cover;
+    /* do box shadow 3d effekt!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
     box-shadow: 4px 6px 6px black;
 }
 
 td{
-    width:6rem;
-    height:6rem;
+    width:5rem;
+    height:5rem;
 }
 
 table tr:nth-child(odd) td:nth-child(even) {
@@ -51,3 +50,26 @@ table tr:nth-child(odd) td:nth-child(even) {
 table tr:nth-child(even) td:nth-child(odd) {
     background: #000;
   }
+
+@media(max-width:850px){
+    h1{
+        font-size:4rem;
+        margin: 2rem 0rem;
+    }
+    td{
+        width:4rem;
+        height:4rem;
+    }
+}
+
+
+@media(max-width:550px){
+    h1{
+        font-size:3rem;
+        margin: 2rem 0rem;
+    }
+    td{
+        width:2.4rem;
+        height:2.4rem;
+    }
+}
