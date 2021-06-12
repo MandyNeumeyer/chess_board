@@ -13,4 +13,4 @@
 * you could work with a table in order to create the chessboard
 
 
-![mock](/img/chessboard.png)
+![mock](/img/chess.jpeg)
