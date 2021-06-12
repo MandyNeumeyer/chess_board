@@ -2,6 +2,7 @@
 **Exercise to practice the nth-child selector**
 
 
+
 ### Challenge
 
 * Create a chessboard as in the picture below.
@@ -11,4 +12,5 @@
 
 * you could work with a table in order to create the chessboard
 
-<!-- ![mock](/images/mock.png) -->
+
+![mock](/img/chessboard.png)
