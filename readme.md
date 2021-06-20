@@ -6,7 +6,7 @@
 ### Challenge
 
 * Create a chessboard as in the picture below.
-* For the chess pattern use as little lines of code as possible.
+* For the chess pattern use as few lines of code as possible.
 
 ### Hint
 
