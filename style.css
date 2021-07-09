@@ -74,9 +74,35 @@ table tr:nth-child(even) td:nth-child(odd) {
     color:rgb(56, 55, 55)
 }
 
-@media(max-width:900px){
+@media(max-width:1600px){
     h1{
-        font-size:4rem;
+        font-size:3.5rem;
+        margin: 1rem 0rem;
+    }
+    .wrapper{
+        width:40.5rem;
+        height:40.5rem;
+        border:6px groove black;
+    }
+    td{
+        width:4.5rem;
+        height:4.5rem;
+    }
+    table{
+        border:8px inset black;
+    }
+    .players{
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
+
+@media(max-width:1024px){
+    h1{
+        font-size:3.5rem;
         margin: 2rem 0rem;
     }
     .wrapper{
@@ -92,7 +118,7 @@ table tr:nth-child(even) td:nth-child(odd) {
         border:8px inset black;
     }
     .players{
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 }
 
