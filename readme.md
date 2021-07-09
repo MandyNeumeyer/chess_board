@@ -6,11 +6,15 @@
 ### Challenge
 
 * Create a chessboard as in the picture below.
-* For the chess pattern use as few lines of code as possible.
+* For the chess pattern use as few lines of css as possible.
 
 ### Hint
 
 * you could work with a table in order to create the chessboard
 
+### Bonus
 
-![mock](/img/chess.jpeg)
+* Add players (you could use fontawsome icons)
+
+
+![mock](/img/chessboard.jpeg)

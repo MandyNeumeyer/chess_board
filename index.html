@@ -4,23 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Chess Board</title>
 </head>
 <body>
-    <div>
-        <h1>Chessboard</h1>
+        <h1>chessboard</h1>
+        <div class="wrapper">
         <table>
             <!--8 * 8 -->
             <th>
+            <tr class="players white">
+                <td><i class="fas fa-chess-rook"></i></td>
+                <td><i class="fas fa-chess-knight"></i></td>
+                <td><i class="fas fa-chess-bishop"></i></td>
+                <td><i class="fas fa-chess-queen"></i></td>
+                <td><i class="fas fa-chess-king"></i></td>
+                <td><i class="fas fa-chess-bishop"></i></td>
+                <td><i class="fas fa-chess-knight"></i></td>
+                <td><i class="fas fa-chess-rook"></i></td>
+            </tr>
+            <tr class="players white">
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+            </tr>
             <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr class="players grey">
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+                <td><i class="fas fa-chess-pawn"></i></td>
+            </tr>
+            <tr class="players grey">
+                <td><i class="fas fa-chess-rook"></i></td>
+                <td><i class="fas fa-chess-knight"></i></td>
+                <td><i class="fas fa-chess-bishop"></i></td>
+                <td><i class="fas fa-chess-queen"></i></td>
+                <td><i class="fas fa-chess-king"></i></td>
+                <td><i class="fas fa-chess-bishop"></i></td>
+                <td><i class="fas fa-chess-knight"></i></td>
+                <td><i class="fas fa-chess-rook"></i></td>
+            </tr>
             </th>
         </table>
     </div>
