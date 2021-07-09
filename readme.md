@@ -14,7 +14,7 @@
 
 ### Bonus
 
-* Add players (you could use fontawsome icons)
+* Add chess pieces (you could use fontawsome icons)
 
 
 ![mock](/img/chessboard.jpeg)
