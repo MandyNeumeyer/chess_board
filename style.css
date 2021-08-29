@@ -100,7 +100,7 @@ table tr:nth-child(even) td:nth-child(odd) {
 
 
 
-@media(max-width:1024px){
+@media(max-width:1400px){
     h1{
         font-size:3.5rem;
     }
