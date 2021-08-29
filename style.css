@@ -78,7 +78,6 @@ table tr:nth-child(even) td:nth-child(odd) {
 @media(max-width:1600px){
     h1{
         font-size:3.5rem;
-        margin: 1rem 0rem;
     }
     .wrapper{
         width:40.5rem;
