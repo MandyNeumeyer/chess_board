@@ -17,4 +17,4 @@
 * Add chess pieces (you could use fontawsome icons)
 
 
-![mock](/img/chessboard.jpeg)
+![mock](/img/chess.jpeg)

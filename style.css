@@ -32,8 +32,8 @@ h1{
     background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background:url(./img/wood.jpg);
     background-size: cover;
-    width:42rem;
-    height:42rem;
+    width:44rem;
+    height:44rem;
     display: flex;
     align-items: center;
     justify-content: center;
