@@ -5,6 +5,7 @@
 ### Challenge
 
 * Create a chessboard as in the picture below
+* Use the wood.jpg image for the chessboard background
 * For the chess pattern use as few lines of css as possible
 
 ### Hint

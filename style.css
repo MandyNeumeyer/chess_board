@@ -35,7 +35,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 4px 6px 6px 3px rgb(22, 22, 22);
   box-shadow: 4px 6px 6px 3px rgb(14, 13, 13);
   border-radius: 5px;
   border: 8px groove black;
@@ -54,6 +53,7 @@ td {
 table tr:nth-child(odd) td:nth-child(even) {
   background: #000;
 }
+
 table tr:nth-child(even) td:nth-child(odd) {
   background: #000;
 }
