@@ -1,142 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #000; /* fallback for browsers that don't support linear-gradient */
+  background: linear-gradient(to right, #434343, #000);
 }
 
-h1{
-    text-align: center;
-    color:pink;
-    color: snow;
-    font-family: 'Poppins', sans-serif;
-    font-size:4.5rem;
-    letter-spacing: 0.3rem;
-    margin:2rem 0rem;
-} 
-
-.wrapper{
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background:url(./img/wood.jpg);
-    background-size: cover;
-    width:44rem;
-    height:44rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 4px 6px 6px 3px rgb(22, 22, 22);
-    box-shadow: 4px 6px 6px 3px rgb(14, 13, 13);
-    border-radius: 5px;
-    border:8px groove black;
+h1 {
+  text-align: center;
+  color: pink;
+  color: snow;
+  font-family: "Poppins", sans-serif;
+  font-size: 4.5rem;
+  letter-spacing: 0.3rem;
+  margin: 2rem 0rem;
 }
 
-table{
-    border:10px inset black;
-    border-radius: 5px;
-   
+.wrapper {
+  background: #000; /* fallback for browsers that don't support linear-gradient */
+  background: -webkit-linear-gradient(to right, #434343, #000);
+  background: url(./img/wood.jpg);
+  background-size: cover;
+  width: 44rem;
+  height: 44rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 6px 6px 3px rgb(14, 13, 13);
+  border-radius: 5px;
+  border: 8px groove black;
 }
 
-td{
-    width:4.8rem;
-    height:4.8rem;
+table {
+  border: 10px inset black;
+  border-radius: 5px;
+}
+
+td {
+  width: 4.8rem;
+  height: 4.8rem;
 }
 
 table tr:nth-child(odd) td:nth-child(even) {
-    background:#000;
-  }
+  background: #000;
+}
+
 table tr:nth-child(even) td:nth-child(odd) {
-    background: #000;
-  }
-
-.players{
-    text-align: center;
-    font-size: 2.8rem;
+  background: #000;
 }
 
-.white{
-    color:linen;
+.players {
+  text-align: center;
+  font-size: 2.8rem;
 }
 
-.grey{
-    color:rgb(56, 55, 55)
+.white {
+  color: linen;
+}
+
+.grey {
+  color: rgb(56, 55, 55);
 }
 
 /* media queries */
 
-@media(max-width:1600px){
-    h1{
-        font-size:3.5rem;
-    }
-    .wrapper{
-        width:40.5rem;
-        height:40.5rem;
-        border:6px groove black;
-    }
-    td{
-        width:4.5rem;
-        height:4.5rem;
-    }
-    table{
-        border:8px inset black;
-    }
-    .players{
-        font-size: 2.5rem;
-    }
+@media (max-width: 1600px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .wrapper {
+    width: 40.5rem;
+    height: 40.5rem;
+    border: 6px groove black;
+  }
+  td {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  table {
+    border: 8px inset black;
+  }
+  .players {
+    font-size: 2.5rem;
+  }
 }
 
-@media(max-width:1400px){
-    h1{
-        font-size:3.5rem;
-    }
-    .wrapper{
-        width:34rem;
-        height:34rem;
-        border:5px groove black;
-    }
-    td{
-        width:3.8rem;
-        height:3.8rem;
-    }
-    table{
-        border:7px inset black;
-    }
-    .players{
-        font-size: 2.3rem;
-    }
+@media (max-width: 1400px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .wrapper {
+    width: 34rem;
+    height: 34rem;
+    border: 5px groove black;
+  }
+  td {
+    width: 3.8rem;
+    height: 3.8rem;
+  }
+  table {
+    border: 7px inset black;
+  }
+  .players {
+    font-size: 2.3rem;
+  }
 }
 
-@media(max-width:590px){
-    h1{
-        font-size:3rem;
-    }
-    .wrapper{
-    width:21.6rem;
-    height:21.6rem;
-    border:3px groove black;
-    }
-    td{
-        width:2.4rem;
-        height:2.4rem;
-    }
-    table{
-        border:4px inset black;
-    }
-    .players{
-        font-size: 1.5rem;
-    }
-
+@media (max-width: 590px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .wrapper {
+    width: 21.6rem;
+    height: 21.6rem;
+    border: 3px groove black;
+  }
+  td {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  table {
+    border: 4px inset black;
+  }
+  .players {
+    font-size: 1.5rem;
+  }
 }
-
